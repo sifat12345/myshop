@@ -1,0 +1,60 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background:#5ccecc;
+}
+
+.gool{
+	height:430px;
+	margin:auto;         width:500px;
+}
+
+.gool img{
+	margin: auto;
+    padding-top:200px;
+	padding-bottom: 50px;
+	display: block;
+}
+
+.gool input[type="text"]{
+
+	width: 100%;
+	padding: 10px ;
+	box-sizing:border-box;
+	margin: 20px 0px;
+	background:#d1fffd;
+	border: none;
+	border-radius:3px;
+}
+
+
+.button, .gool p{
+	text-align: center;
+}
+
+.button input{
+	background: #ffd493;
+	padding: 5px;
+	width: 135px;
+	border-radius: 13px;
+	color: #062f99;
+	transition-duration:1S;
+}
+.button input:hover{
+  color: BLACK;
+	background: white;
+	
+}
+
+.button p{
+	font-size: 13px;
+}
+
+.button p a{
+	text-decoration: none;
+}
+
+.button p a:hover {
+	text-decoration: underline;
+}
